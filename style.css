@@ -1,0 +1,48 @@
+.nav-link, .btn-dark{
+    font-size: 14px;
+}
+.btn-primary, .btn-blue {
+    font-size: 12px;
+}
+.input-group{
+    width: 15%;
+}
+.offcanvas-lg{
+    opacity: 0.9;
+}
+.bg-blue, .btn-blue {
+    background-color: #3e54a3;
+    transition: .4s;
+}
+.btn-blue:hover, .btn-infos:hover{
+    opacity: 0.9;
+} 
+.btn-ligt{
+    color: #090f25;
+    background-color: white;
+    font-size: 12px;
+}
+.btn-infos{
+    background-color: #dbe5e6;
+    opacity: 0.7;
+}
+.color-vert{
+    color: #6abecd;
+}
+.table{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.blue{
+    color: #3e54a3;
+}
+#section4{
+    background-color: #fafafa;
+}
+.free{
+    background-color: #e7ebf9;
+}
+.bg-vert{
+    background-color: #6abecd;
+}

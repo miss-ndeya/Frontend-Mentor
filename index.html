@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <!-- link css boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link font awesome -->
+    <script src="https://kit.fontawesome.com/00ec292487.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header >
+        <h1 class="text-white fs-6 py-2 text-center" style="background-color: #3e54a3;">
+            <i class="fa-solid fa-briefcase mx-3"></i>
+            Looking to hire developers?
+            <a href="#" class="text-white mx-2 fs-6">Visit our Hiring Platform</a>
+        </h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo-desktop.svg" alt="logo" srcset=""></a>
+              <button class="navbar-toggler border-0 outline-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold " aria-current="page" href="#">CHALLENGES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-dark " href="#">SOLUTIONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-dark " href="#">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-dark " href="#">UNLOCK 
+                        <button type="button" class="btn btn-sm btn-primary">PRO</button>
+                    </a>
+                  </li>
+                    <a class="nav-link fw-bold text-dark py-0" href="#">
+                        <button type="button" class="btn btn-dark rounded-pill py-2">
+                            LOG IN WITH GITHUB<i class="fa-brands fa-github ms-3"></i>
+                        </button>
+                    </a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <table class="table table-bordered">
+            <tbody>
+              
+              <tr>
+                <th scope="row col-auto"></th>
+                <td colspan="1" class="fw-bold col-1">CHALLENGE</td>
+                <td class="col-11"></td>
+              </tr>
+            </tbody>
+          </table>
+    </header>
+
+    <main>
+        <section id="section1">
+            <div class="container my-5 py-4 border rounded-3  align-items-center ">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="d-flex justify-content-between p-0">
+                           <div class="d-flex ">
+                             <p class="px-2 blue free rounded-pill">FREE</p>
+                             <p class="px-2 color-vert">HTML</p>
+                             <p class="px-2 blue">CSS</p>
+                           </div>
+                           <div class="">
+                               <span class=" text-white px-2 p-1 border border-end-0 bg-vert" style="font-size: 14px;">1</span>
+                               <span class="border border-infos   color-vert p-1" style="font-size: 14px;">NEWBIE</span>
+                           </div>
+                        </div>
+                        <div class=" pt-3">
+                            <h1 class="fs-4">Results summary component</h1>
+                            <p class="py-3">This challenge has something for everyone. 
+                                It’s a HTML and CSS only project, but we’ve also provided a 
+                                JSON file of the test results for anyone wanting to practice JS.</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-danger fw-bold rounded-pill py-2 ">
+                              START CHALLENGE<i class="fa-solid fa-code ms-3 fw-bold"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 ">
+                        <img src="aqbssn4qnnb7jwp9kbw2.jpg" alt="photo1" class="img-fluid" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                     
+                        <!--Offcanvas -->
+                        <div class="offcanvas offcanvas-top offcanvas-lg bg-dark h-100 " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header text-white">
+                              <button type="button" class="btn-close text-white bg-white text-start" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body bg-white w-50 mx-auto">
+                                <div id="carouselExampleControls" class="carousel slide mx-auto justify-content-center" data-bs-ride="carousel">
+                                    <div class="carousel-inner mx-auto justify-content-center">
+                                      <div class="carousel-item active mx-auto">
+                                        <img src="aqbssn4qnnb7jwp9kbw2.jpg" class="d-block w-75" alt="...">
+                                      </div>
+                                      <div class="carousel-item ">
+                                        <img src="np8gcjsljpn4zlzqdusd.jpg" class="d-block w-75" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                                      <span class="visually-hidden text-dark fs-1">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            </div>
+                        <div class="mt-3">
+                            <button type="button" class="btn btn-blue text-white fw-bold rounded-pill">DESKTOP DESIGN</button>
+                            <button type="button" class="btn btn-infos fw-bold rounded-pill">MOBILE DESIGN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="container   my-5">
+                <div class="row">
+                    <div class="col-md-6 border p-4 rounded-3">
+                        <h2 class="fs-4"><i class="fa-solid fa-light fa-file-pen text-warning me-1"></i>Brief</h2>
+                        <p>Your challenge is building out this results summary component 
+                            and getting it as close to the design as possible.</p>
+                            <p>You can use any tools you like to help you complete the challenge.
+                                 So if you've got something you'd like to practice, feel free to give it a go.</p>
+                                 <p>We provide the data for the results in a local data.json file. 
+                                    So you can use that to add the results and total score dynamically if you choose.</p>
+                            <p>Your users should be able to:</p>
+                            <ul>
+                                <li>View the optimal layout for the interface depending on their device's screen size</li>
+                                <li>See hover and focus states for all interactive elements on the page</li>
+                            </ul>
+                            <p>Download the project and go through the README.md file. This will provide further details about the project and help you set it up.</p>
+                            <p>Want some support on the challenge? <a href="#" class="text-dark">Join our community</a> and ask questions in the help channel.</p>
+                    </div>
+                    <div class="col-md-6 ">
+                       <div class="border p-4 rounded-3 mb-5">
+                        <h2 class="fs-4"><i class="fa-solid fs-6 fa-book me-2"></i>Assets provided</h2>
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-xmark text-danger me-2"></i>Sketch and Figma design file access - <a href="#" class="text-dark fw-bold"> Unlock with Pro</a></li>
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-check me-2 text-success"></i>JPEG design files for mobile & desktop layouts</li>
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-check me-2 text-success"></i>Style guide for fonts, colors, etc</li>
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-check me-2 text-success"></i>Optimized image assets</li>
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-check me-2 text-success"></i>README file to help you get started</li>
+                            <li class="list-group-item border-0 p-1"><i class="fa-solid fa-check me-2 text-success"></i>HTML file with pre-written content
+                            </li>
+                          </ul>
+                       </div>
+                       <div class="border p-4 rounded-3">
+                            <h2 class="fs-4"><i class="fa-solid fa-lightbulb text-warning me-2"></i>Ideas to test yourself</h2>
+                            <ol>
+                                <li>Write your styles using a pre-processor, such as <a href="#" class="text-dark ">Sass</a>, <a href="#" class="text-dark ">Less</a> or <a href="#" class="text-dark ">Stylus</a></li>
+                                <li>Train your eye for detail by getting your solution as close to the design as you can</li>
+                                <li>Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. 
+                                    Project estimations are a skill that is often overlooked but is essential for professional developers</li>
+                            </ol>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <h6 class="fw-bold my-5">CHALLENGE FAQS</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">Can I use libraries/frameworks on these projects?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">How can I get help if I'm stuck on a challenge?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">Can I use these projects in my portfolio?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">Is there an official solution I can take a look at?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">Do I get a code review when I post my solution?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">How do I submit my solution?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">Can I use these challenges within my own free or commercial content/tutorials/projects?<i class="fa-solid fa-plus position-absolute end-0 m-2 my-0"></i></li>
+                            <li class="list-group-item mb-3 border rounded-3 py-4 text-start">How often are new challenges added?<i class="fa-solid fa-plus position-absolute end-0 p-2"></i></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section4" class="py-5">
+          <div class="container bg-blue rounded-3 my-5 py-5 text-white">
+            <div class="row text-center  justify-content-center">
+              <div class="col-md-11">
+                <h4 class="fw-bold fs-4 mb-4 pt-4"><i class="fa-brands fa-discord me-2 fs-3"></i>DISCORD</h4>
+                <h6 class="fw-bold mb-4">JOIN OUR DISCORD COMMUNITY</h6>
+                <p class="fs-3 fs-sm-6 fs-md-3">Join other Frontend Mentor community members taking the challenges,
+                   sharing resources, helping each other, and chatting about all things front-end!</p>
+                <button type="button" class="btn btn-ligt rounded-pill fw-bold my-4"><a href="#" class=" nav-link p-1">JOIN OUR DISCORD</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid pt-5">
+          <div class="row py-3 pt-3">
+            <div class="col-12 d-flex justify-content-between">
+              <a class="navbar-brand" href="#"><img src="logo-desktop.svg" alt="logo" srcset=""></a>
+              <div id="icons">
+                <i class="fa-brands fa-discord me-2 fs-3 color-vert"></i>
+                <i class="fa-brands fa-twitter me-2 fs-3 color-vert"></i>
+                <i class="fa-brands fa-linkedin me-2 fs-3 color-vert"></i>
+                <i class="fa-brands fa-facebook me-2 fs-3 color-vert"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-md-5 col-sm-12 p-3 pb-0">
+              <h4 class="blue">Stay up to date</h4>
+              <p>with new challenges, featured solutions, <br> selected articles and our latest news</p>
+            </div>
+            <div class="col-6 col-lg-auto  p-3 px-5 pb-0">
+              <h6>FRONTEND MENTOR</h6>
+              <p class="m-1 text-secondary">Unlock Pro</p>
+              <p class="m-1 text-secondary">CONTACT US</p>
+              <p class="m-1 text-secondary">FAQS</p>
+            </div>
+            <div class="col-6 col-lg-auto p-3 px-4 pb-0">
+              <h6>EXPLORE</h6>
+              <p class="m-1 text-secondary">challenges</p>
+              <p class="m-1 text-secondary">Solutions</p>
+              <p class="m-1 text-secondary">Resources</p>
+            </div>
+            <div class="col-6 col-lg-auto p-3 px-5 pb-3">
+              <h6>COMMUNITY</h6>
+              <p class="m-1 text-secondary">Discord</p>
+              <p class="m-1 text-secondary">Guidlines</p>
+              <p class="m-1 text-secondary">Blog</p>
+            </div>
+            <div class="col-6 col-lg-auto p-3 pb-0">
+              <h6>FOR COMPANIES</h6>
+              <p class="m-1 text-secondary">Hire developer</p>
+            </div>
+            <div class="col-12 c d-flex my-0 py-0 mb-3">
+              <div class="mb-3 col-12 col-lg-9">
+                <input type="email" class="col-6 col-lg-5 p-1 fs-6 fs-lg-5" id="exampleFormControlInput1" placeholder="name@example.com">
+                <button type="button" class="btn btn-danger rounded-pill ms-2 btn-lg fw-bold">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-12 text-start  text-secondary   d-flex flex-column flex-lg-row  justify-content-between border border-top pt-3">
+              <p class="text-center">© Frontend Mentor 2019 - 2023</p>
+              <div class="d-flex">
+                  <p class="px-2">Terms</p>
+                  <p class="px-2">Cookie Policy</p>
+                  <p class="px-2">Privacy Policy</p>
+                  <p class="px-2">Licences</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
