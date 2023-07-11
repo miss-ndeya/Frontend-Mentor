@@ -1,7 +1,7 @@
 .nav-link, .btn-dark{
     font-size: 14px;
 }
-.btn-primary, .btn-blue {
+.btn-primary, .btn-blue , .fs{
     font-size: 12px;
 }
 .input-group{
@@ -10,7 +10,7 @@
 .offcanvas-lg{
     opacity: 0.9;
 }
-.bg-blue, .btn-blue {
+.bg-blue, .btn-blue, header h1 {
     background-color: #3e54a3;
     transition: .4s;
 }
@@ -29,6 +29,9 @@
 .color-vert{
     color: #6abecd;
 }
+.color-folio{
+    color: #aad742;
+}
 .table{
     position: sticky;
     top: 0;
@@ -46,3 +49,21 @@
 .bg-vert{
     background-color: #6abecd;
 }
+.bg-folio{
+    background-color: #aad742;
+}
+
+/* Frontend Mentor html */
+.h1{
+    font-size: 3rem;
+}
+.width{
+    height: 300px;
+}
+.card-img-top{
+    transition: 6s;
+}
+.card-img-top:hover{
+    scale: 1.1;
+}
+
